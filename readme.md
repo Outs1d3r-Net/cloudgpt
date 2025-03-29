@@ -33,6 +33,9 @@ $ git clone https://github.com/ustayready/cloudgpt
 $ cd cloudgpt
 ~/cloudgpt $ virtualenv -p python3 .
 ~/cloudgpt $ source bin/activate
+(cloudgpt) ~/cloudgpt $ python -m pip install -r requirements.txt
+(cloudgpt) ~/cloudgpt $ python -m pip install openai==0.28
+(cloudgpt) ~/cloudgpt $ nano scan.py (And go to line 31 and change the AI ​​model for: gpt-3.5-turbo)
 (cloudgpt) ~/cloudgpt $ python scan.py
 ```
 
